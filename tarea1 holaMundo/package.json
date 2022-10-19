@@ -1,0 +1,12 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "Practico 1: creación de proyecto via node y se agrega script \"hola mundo\"",
+  "main": "index.js",
+  "scripts": {
+    "holamundo": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "AXA37251",
+  "license": "ISC"
+}
