@@ -16,4 +16,3 @@ let pesoKgRedondeadoDown = Math.floor(pesoKg);
 
 let comparacion = (Number.MAX_VALUE) === (Number.MAX_VALUE +1 );
 console.log(comparacion);
-
