@@ -51,5 +51,5 @@ const nuevaLista = directores.concat(titulos);
 console.log(nuevaLista);
 
 //9- Una nueva lista que concatene la lista de directores y la lista de los títulos (utilizando el factor de propagación)*/
-const nuevaListaP = concat(...directores,...titulos);
+const nuevaListaP = [...directores,...titulos]
 console.log(nuevaListaP);

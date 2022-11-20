@@ -27,3 +27,9 @@ console.log(arrayNumerico);
 
 arrayNumerico.sort((a, b) => b-a)
 console.log(arrayNumerico);
+
+function ordenar((a,b)=>{
+    if(a<b){
+        return -1;
+    }
+})
