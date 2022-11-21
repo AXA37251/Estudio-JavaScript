@@ -6,11 +6,16 @@ Crea un archivo llamado conjuntos.js que contenga las siguientes líneas
 */
 
 //1
-const familia = ['diego', 'jaoquin', 'javier', 'jorge', 'soledad']
+const familia = [{ id:'diego'}, { id:'jaoquin'}, { id:'javier'}, { id:'jorge'}, { id:'soledad'}]
 
 const setFamilia = new Set(familia); 
 //2
 setFamilia.add('diego');
+
+let varDiego = familia.findIndex(x=>x.id=='diego')
+let eliminado = familia.splice(varDiego,1);
+
+console.log(familia;)
 
 console.log(setFamilia);
 //3
